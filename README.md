@@ -1,4 +1,4 @@
-# 🗝️** PAKLEECH - Klíčník tvým zařízením**
+# 🗝️ PAKLEECH - Klíčník tvým zařízením
 
 ## 💡 O PROJEKTU
 PAKLEECH je správce hesel, který běží lokálně na vašem zařízení, vytvořený za účelem zabezpečené správy, generování a ukládání hesel. Cílem tohoto je projektu je ať má uživatel svá heslo na jednom místě, bezpečně zašifrována a snadno přístupná.

@@ -1,8 +1,12 @@
+import HeroSection from "./components/HeroSection"
+import About from "./components/About"
+
 const App = () => {
     return (
-        <section>
-            <h1 className="text-3xl font-bold underline">PAKLEECH</h1>
-        </section>
+        <div>
+            <HeroSection />
+            <About />
+        </div>
     )
 }
 

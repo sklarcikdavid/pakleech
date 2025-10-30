@@ -1,31 +1,54 @@
 @import "tailwindcss";
 
-/* light mode barvy
-    @theme {
-    --color-bg: #f9fafb;
-    --color-text: #111827;
-    --color-border: #e5e7eb;
-
-    --color-primary: #2563eb;
-    --color-primary-hover: #1d4ed8;
-    --color-primary-light: #93c5fd;
-
-    --color-success: #10b981;
-    --color-warning: #f59e0b;
-    --color-error: #ef4444;
-    }
-*/
-
+/* light mode barvy - tmavě modré
 @theme {
-  --color-bg: #111827;
-  --color-text: #f3f4f6;
-  --color-border: #1f2937;
+  --color-bg: #f9fafb;
+  --color-text: #111827;
+  --color-border: #e5e7eb;
 
-  --color-primary: #3b82f6;
-  --color-primary-hover: #60a5fa;
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
   --color-primary-light: #93c5fd;
 
-  --color-success: #34d399;
-  --color-warning: #fbbf24;
-  --color-error: #f87171;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+}
+
+// dark mode barvy
+@theme {
+    --color-bg: #111827;
+    --color-text: #f3f4f6;
+    --color-border: #1f2937;
+  
+    --color-primary: #3b82f6;
+    --color-primary-hover: #60a5fa;
+    --color-primary-light: #93c5fd;
+  
+    --color-success: #34d399;
+    --color-warning: #fbbf24;
+    --color-error: #f87171;
+}
+
+*/
+
+/* světle modré barvy */
+@theme {
+    --color-bg: #C1D3FE;
+    --color-text: #7d8597;
+    --color-border: #ABC4FF;
+  
+    --color-primary: #3b82f6;
+    --color-primary-hover: #60a5fa;
+    --color-primary-light: #93c5fd;
+  
+    --color-success: #34d399;
+    --color-warning: #fbbf24;
+    --color-error: #d13b3b;
+}
+
+body {
+  background-color: var(--color-bg);
+  scroll-behavior: smooth;
+  margin: 0;
 }

@@ -31,7 +31,20 @@
 }
 
 */
+@font-face {
+  font-family: sf-pro-medium;
+  src: url(../public/fonts/SFPRODISPLAYMEDIUM.woff2);
+}
 
+@font-face {
+  font-family: sf-pro-bold;
+  src: url(../public/fonts/SFPRODISPLAYBOLD.woff2);
+}
+
+@font-face {
+  font-family: sf-pro-regular;
+  src: url(../public/fonts/SFPRODISPLAYREGULAR.woff2);
+}
 /* světle modré barvy */
 @theme {
     --color-bg: #C1D3FE;
@@ -49,6 +62,10 @@
 
 body {
   background-color: var(--color-bg);
-  scroll-behavior: smooth;
   margin: 0;
+}
+
+*, html {
+  font-family: sf-pro-regular;
+  scroll-behavior: smooth !important;
 }

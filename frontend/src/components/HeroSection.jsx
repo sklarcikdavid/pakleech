@@ -7,7 +7,7 @@ const HeroSection = () => {
                 </div>
                 <div class="HeroHeader" className="flex flex-col">
                     <h1 className="text-text text-8xl font-bold mb-0">pakleech</h1>
-                    <p className="text-text text-2xl font-light mt-0 ml-72">klíčník tvým zařízením</p>
+                    <p className="text-text text-2xl font-light mt-0 ml-64">klíčník tvým zařízením</p>
                 </div>
             </div>
         </section>
